@@ -17,6 +17,9 @@ Scores can be made up of one of 3 characters
 * **1** Pass
 * **X** Not applicable
 
+## Passing Audits
+A method can be considered to pass the security audit when its tag score is made up of all 1's or X's, a 0 anywhere is a fail.
+
 **Best Practice:** When generating security tags for your chosen version and level you should ALWAYS set all scores as **0** this will ensure that you are actively performing the audit on your method to know with certainty that it passes or is not applicable.
  
 # Version 1 :: DRAFT
