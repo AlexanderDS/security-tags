@@ -3,7 +3,7 @@ Security tags are a standard for auditing methods against common security issues
 
 ```
 /**
- * @see https://github.com/AlexanderDS/security-tags/ SC-V1-L1-X1XX
+ * @see https://github.com/AlexanderDS/security-tags/ SC-V1-L1-111X111
  */
 ```
  
