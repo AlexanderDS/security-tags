@@ -1,12 +1,13 @@
 # Security Tags
+## Explanation 
 Security tags are a standard for auditing methods against common security issues, they piggy back off the existing **@see** tag in popular documentation generators such as Javadoc and PHPDoc, to that extent it should be considered language agnostic.
-
+## Example 
 ```
 /**
  * @see https://github.com/AlexanderDS/security-tags/ SC-V1-L1-111X111
  */
 ```
- 
+## Structure 
 The struture of a security tag is as follows:
 ```
 {namespace:string}-{version:string}-{level:string}-{scores:string}
