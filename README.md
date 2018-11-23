@@ -1,5 +1,5 @@
 # Security Tags
-Security tags are a standard for auditing methods against common security issues, they piggy back off the existing **@see** tag in common documentation generators such as Javadoc and PHPDoc, to that extent it should be considered language agnostic.
+Security tags are a standard for auditing methods against common security issues, they piggy back off the existing **@see** tag in popular documentation generators such as Javadoc and PHPDoc, to that extent it should be considered language agnostic.
 
 ```
 /**
