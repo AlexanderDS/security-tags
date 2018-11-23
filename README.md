@@ -35,3 +35,14 @@ Level 1 is concerned with methods being used only in the correct circumstances, 
 5. Cross-resource protection
 6. Expected parameters only
 7. Expected values only
+
+## Level 2 - Data Input [1,2]
+```
+@see https://github.com/AlexanderDS/security-tags/ SC-V1-L2-00
+```
+Level 2 is about the data coming into your method to make sure it's within allowable/expected parameters.
+
+1. Enforce data types
+2. Cross check multi-choice data against original options
+
+**Note:** you may want to check string input against [Big List of Naughty Strings](https://github.com/minimaxir/big-list-of-naughty-strings)
